@@ -16290,7 +16290,7 @@
 	(footprint "LED_SMD:LED_WS2812B-Mini_PLCC4_3.5x3.5mm"
 		(layer "F.Cu")
 		(uuid "610ec711-4d77-4e4b-825a-36bc95435f1a")
-		(at 141.925 62.947089 180)
+		(at 133.51 59.79 180)
 		(descr "Addressable RGB LED NeoPixel Mini, 12 mA, https://web.archive.org/web/20200131233647/http://www.world-semi.com/DownLoadFile/112")
 		(tags "LED RGB NeoPixel Mini")
 		(property "Reference" "LED38"
