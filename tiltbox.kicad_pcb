@@ -49378,7 +49378,7 @@
 	(footprint "RF_Module:ESP32-C3-WROOM-02"
 		(layer "B.Cu")
 		(uuid "4164625b-3ce1-45c1-8afd-138b6a5c699e")
-		(at 133.858 84.824)
+		(at 133.83 81.08)
 		(descr "RF Module, ESP32-C3 WROOM-02, Wi-Fi and Bluetooth, BLE, onboard antenna, https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf")
 		(tags "ESP32-C3 WROOM-02 espressif")
 		(property "Reference" "U1"
@@ -50120,7 +50120,7 @@
 			)
 			(polygon
 				(pts
-					(xy 119.858 91.924) (xy 147.858 91.924) (xy 147.858 102.924) (xy 119.858 102.924)
+					(xy 119.83 88.18) (xy 147.83 88.18) (xy 147.83 99.18) (xy 119.83 99.18)
 				)
 			)
 		)
@@ -54438,7 +54438,7 @@
 		(start 95.36 41.12)
 		(end 95.36 100.175118)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -54449,7 +54449,7 @@
 		(mid 96.224857 39.032109)
 		(end 98.312756 38.167244)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -54459,7 +54459,7 @@
 		(center 98.312756 41.12)
 		(end 99.789134 41.12)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -54470,7 +54470,7 @@
 		(center 98.312756 100.175118)
 		(end 99.789134 100.175118)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -54482,7 +54482,7 @@
 		(mid 96.224861 102.263025)
 		(end 95.36 100.175118)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -54492,7 +54492,7 @@
 		(start 157.367874 38.167244)
 		(end 98.312756 38.167244)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -54503,7 +54503,7 @@
 		(mid 159.455801 39.032085)
 		(end 160.32063 41.12)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -54513,7 +54513,7 @@
 		(center 157.367874 41.12)
 		(end 158.844252 41.12)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -54524,7 +54524,7 @@
 		(center 157.367874 100.175118)
 		(end 158.844252 100.175118)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -54535,7 +54535,7 @@
 		(start 157.367874 103.127874)
 		(end 98.312756 103.127874)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -54545,7 +54545,7 @@
 		(start 160.32063 41.12)
 		(end 160.32063 100.175118)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -54556,7 +54556,7 @@
 		(mid 159.455797 102.26305)
 		(end 157.367874 103.127874)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
