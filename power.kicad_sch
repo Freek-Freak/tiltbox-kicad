@@ -1790,6 +1790,217 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Switching:MT3608"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MT3608"
+				(at -3.81 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+				(at -6.35 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Step-Up Boost DC-DC Regulator Adjustable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT*23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MT3608_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MT3608_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Wuerth_450301014042"
 			(pin_names
 				(offset 1)
@@ -2420,6 +2631,12 @@
 		(uuid "5e188a5c-ff75-429e-bf03-b152b85c2c13")
 	)
 	(junction
+		(at 245.11 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d20f5cf-6710-4088-9307-b6870b561401")
+	)
+	(junction
 		(at 185.42 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2436,6 +2653,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfedfc25-f0ca-45f2-a681-12093bf9e30a")
+	)
+	(junction
+		(at 259.08 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c964c18b-5076-4c39-b96d-d854e294ef4f")
 	)
 	(junction
 		(at 191.77 81.28)
@@ -2458,6 +2681,10 @@
 	(no_connect
 		(at 81.28 119.38)
 		(uuid "573603b6-149b-4343-997e-59e88d962d8c")
+	)
+	(no_connect
+		(at 212.09 119.38)
+		(uuid "be498b48-9239-402f-9005-7f5a336b37fd")
 	)
 	(no_connect
 		(at 81.28 121.92)
@@ -2575,6 +2802,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 125.73) (xy 245.11 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "448d0f6b-13ab-4eae-a763-a95b8b5c6004")
+	)
+	(wire
+		(pts
 			(xy 148.59 73.66) (xy 157.48 73.66)
 		)
 		(stroke
@@ -2582,6 +2819,26 @@
 			(type default)
 		)
 		(uuid "45769a9e-007a-489f-b688-4fed2ba1f0da")
+	)
+	(wire
+		(pts
+			(xy 227.33 114.3) (xy 237.49 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e696744-3186-489e-af3d-a8a178ce1dfe")
+	)
+	(wire
+		(pts
+			(xy 259.08 114.3) (xy 252.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c2ab48-21ac-43df-8950-f37e20e01a34")
 	)
 	(wire
 		(pts
@@ -2695,6 +2952,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 121.92) (xy 259.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ade80f-f3bd-4522-b7e3-d7b403ba7f81")
+	)
+	(wire
+		(pts
 			(xy 161.29 73.66) (xy 165.1 73.66)
 		)
 		(stroke
@@ -2735,6 +3002,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 121.92) (xy 245.11 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37eae2b-fe85-41cf-bfc4-5b4a8707aa39")
+	)
+	(wire
+		(pts
 			(xy 185.42 81.28) (xy 191.77 81.28)
 		)
 		(stroke
@@ -2763,30 +3040,6 @@
 		)
 		(uuid "f07e73a5-0abc-43dd-9429-2ac0c9cf3b41")
 	)
-	(global_label "5v output"
-		(shape input)
-		(at 148.59 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2c0c9688-331e-442c-af18-fd31074c806e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.4127 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "D+"
 		(shape input)
 		(at 81.28 111.76 0)
@@ -2811,31 +3064,7 @@
 			)
 		)
 	)
-	(global_label "battery output 5v"
-		(shape input)
-		(at 120.65 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4d40559a-edb5-4c3c-ac51-c647403a1879")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.9133 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "battery output 5v"
+	(global_label "battery output"
 		(shape input)
 		(at 198.12 74.93 0)
 		(fields_autoplaced yes)
@@ -2847,31 +3076,7 @@
 		)
 		(uuid "60c367ce-6a91-4a15-a04d-7313e8ad8426")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.8567 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "5v output"
-		(shape input)
-		(at 130.81 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8d409ed2-778a-45eb-9104-3f264a2db694")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.9873 107.95 0)
+			(at 214.712 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3298,8 +3503,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:MT3608")
+		(at 207.01 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22450f4d-b51d-4a44-93e9-f0c6ee4a6afa")
+		(property "Reference" "U5"
+			(at 207.01 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MT3608"
+			(at 207.01 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 208.28 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+			(at 200.66 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
+			(at 207.01 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "469cca0a-9dad-4e16-8623-97fb6a20cfa0")
+		)
+		(pin "5"
+			(uuid "4e88968a-036d-4aa7-8757-c04c86d05404")
+		)
+		(pin "4"
+			(uuid "d4e5edb7-6ed3-49be-bf66-a7257d48e113")
+		)
+		(pin "3"
+			(uuid "00d4acd3-6c17-4cb2-8aa2-b79233dfc5b2")
+		)
+		(pin "2"
+			(uuid "4eaee45c-d0e1-4cf4-9e8d-254656fa4bb2")
+		)
+		(pin "1"
+			(uuid "c2f54e00-09e5-4744-8c54-7b13a86876a9")
+		)
+		(instances
+			(project "tiltbox"
+				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/a4d86756-dab4-48fc-870c-9426887e394b"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Wuerth_450301014042")
-		(at 125.73 110.49 0)
+		(at 207.01 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3310,7 +3609,7 @@
 		(fields_autoplaced yes)
 		(uuid "22bede02-a77f-4af2-9304-17269ef056d8")
 		(property "Reference" "SW1"
-			(at 125.73 101.6 0)
+			(at 207.01 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3320,7 +3619,7 @@
 			)
 		)
 		(property "Value" "SW_Wuerth_450301014042"
-			(at 125.73 104.14 0)
+			(at 207.01 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3331,7 +3630,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
-			(at 125.73 120.65 0)
+			(at 207.01 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3342,7 +3641,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
-			(at 125.73 118.11 0)
+			(at 207.01 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3353,7 +3652,7 @@
 			)
 		)
 		(property "Description" "Switch slide, single pole double throw"
-			(at 125.73 110.49 0)
+			(at 207.01 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3376,85 +3675,6 @@
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/a4d86756-dab4-48fc-870c-9426887e394b"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 163.83 121.92 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "281ed530-576d-4afc-b62c-5a2764fc7977")
-		(property "Reference" "#PWR0309"
-			(at 160.02 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3 v output"
-			(at 167.64 121.9199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 163.83 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6718faa6-175f-420d-93f1-6ce0b0962d9f")
-		)
-		(instances
-			(project "tiltbox"
-				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/a4d86756-dab4-48fc-870c-9426887e394b"
-					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -3533,6 +3753,84 @@
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/a4d86756-dab4-48fc-870c-9426887e394b"
 					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 259.08 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3695ddca-38aa-4064-a06d-8955602e7cb9")
+		(property "Reference" "#PWR0326"
+			(at 259.08 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 259.08 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 259.08 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "951be7e8-8e75-4e5f-a1ea-3a0c85a38369")
+		)
+		(instances
+			(project "tiltbox"
+				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/a4d86756-dab4-48fc-870c-9426887e394b"
+					(reference "#PWR0326")
 					(unit 1)
 				)
 			)
@@ -3858,8 +4156,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 227.33 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "575ee7a8-2938-4ca7-96e9-320dc5715d47")
+		(property "Reference" "C104"
+			(at 231.14 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uf"
+			(at 231.14 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 228.2952 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 227.33 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e807e02-c9d4-48a5-b59b-519655cb4dc3")
+		)
+		(pin "1"
+			(uuid "f82a8dbe-6409-4ffc-aadd-5ac7f3bf1a2c")
+		)
+		(instances
+			(project "tiltbox"
+				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/a4d86756-dab4-48fc-870c-9426887e394b"
+					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 156.21 121.92 0)
+		(at 245.11 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3870,7 +4250,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c336948-4fe8-4a10-a3b6-82cafa5b9500")
 		(property "Reference" "U4"
-			(at 156.21 115.57 0)
+			(at 245.11 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3880,7 +4260,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 156.21 118.11 0)
+			(at 245.11 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3890,7 +4270,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 156.21 116.84 0)
+			(at 245.11 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3901,7 +4281,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 158.75 128.27 0)
+			(at 247.65 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3912,7 +4292,7 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 156.21 121.92 0)
+			(at 245.11 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4269,6 +4649,84 @@
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/a4d86756-dab4-48fc-870c-9426887e394b"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70224793-6afe-42bd-9018-cb52e2e29a74")
+		(property "Reference" "#PWR0325"
+			(at 172.72 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c76becdd-c2ad-4615-8732-c13a68adbe4b")
+		)
+		(instances
+			(project "tiltbox"
+				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/a4d86756-dab4-48fc-870c-9426887e394b"
+					(reference "#PWR0325")
 					(unit 1)
 				)
 			)
@@ -4764,7 +5222,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 129.54 0)
+		(at 245.11 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4775,7 +5233,7 @@
 		(fields_autoplaced yes)
 		(uuid "af612d1d-dc41-4232-a268-0c685b5fca8e")
 		(property "Reference" "#PWR0310"
-			(at 156.21 135.89 0)
+			(at 245.11 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,7 +5244,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 134.62 0)
+			(at 245.11 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4796,7 +5254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 129.54 0)
+			(at 245.11 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4807,7 +5265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 129.54 0)
+			(at 245.11 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4818,7 +5276,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 129.54 0)
+			(at 245.11 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4912,6 +5370,88 @@
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/a4d86756-dab4-48fc-870c-9426887e394b"
 					(reference "#PWR0307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 259.08 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e585670e-1508-4b76-893f-e63af96104bb")
+		(property "Reference" "C103"
+			(at 262.89 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uf"
+			(at 262.89 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 260.0452 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 259.08 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "84f1bd1c-6053-48ce-8e4e-00328bdb2ee6")
+		)
+		(pin "1"
+			(uuid "1bd14c87-9167-45f6-a84b-a895c6ad899d")
+		)
+		(instances
+			(project "tiltbox"
+				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/a4d86756-dab4-48fc-870c-9426887e394b"
+					(reference "C103")
 					(unit 1)
 				)
 			)

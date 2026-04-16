@@ -1628,12 +1628,6 @@
 		)
 	)
 	(junction
-		(at 88.9 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3319e908-9bdc-464c-86e3-0917e31ed9dc")
-	)
-	(junction
 		(at 115.57 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1705,16 +1699,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 22.86) (xy 83.82 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d28e962-f000-48c3-9649-8402e876acba")
-	)
-	(wire
-		(pts
 			(xy 115.57 102.87) (xy 115.57 105.41)
 		)
 		(stroke
@@ -1722,16 +1706,6 @@
 			(type default)
 		)
 		(uuid "99a17f25-47c5-4dd9-a8ed-a80085e5b114")
-	)
-	(wire
-		(pts
-			(xy 83.82 22.86) (xy 83.82 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afb2fdc9-005b-48ac-b63b-306f79332022")
 	)
 	(wire
 		(pts
@@ -2891,85 +2865,6 @@
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c"
 					(reference "#PWR0318")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 83.82 21.59 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5c6e611-b333-4362-ab61-2b41e5efd80d")
-		(property "Reference" "#PWR0311"
-			(at 87.63 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3 v output"
-			(at 80.01 21.5899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 83.82 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9202d50-600a-4b7c-867f-4831d7a1d770")
-		)
-		(instances
-			(project "tiltbox"
-				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c"
-					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
