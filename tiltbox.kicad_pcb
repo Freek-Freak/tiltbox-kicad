@@ -60003,7 +60003,49 @@
 		(uuid "ecd1c737-2b8d-437f-9b7d-629d6a2391f9")
 	)
 	(zone
-		(locked yes)
+		(net "+5V")
+		(layer "F.Cu")
+		(uuid "942f3554-8f04-4fab-8027-7c3ae6a71efc")
+		(name "+5v")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 161 38) (xy 95 38) (xy 95 104) (xy 161 104)
+			)
+		)
+	)
+	(zone
+		(net "GND")
+		(layer "F.Cu")
+		(uuid "efa25e40-c6b2-4f7c-b561-3405d6669abf")
+		(name "gnd")
+		(hatch edge 0.5)
+		(priority 1)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 161 38) (xy 95 38) (xy 95 104) (xy 161 104)
+			)
+		)
+	)
+	(zone
 		(layer "B.CrtYd")
 		(uuid "eb119a0a-8400-44e5-bcaa-4075ac639af1")
 		(name "ceep aut")
@@ -60030,7 +60072,7 @@
 		)
 		(polygon
 			(pts
-				(xy 119.858 102.924) (xy 147.858 102.924) (xy 147.858 91.924) (xy 119.858 91.924)
+				(xy 119.815252 109.908618) (xy 148.377393 109.976508) (xy 148.377393 98.476508) (xy 119.877393 98.476508)
 			)
 		)
 	)
